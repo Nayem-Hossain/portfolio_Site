@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+.text-color{
+    color: rgb(0, 242, 255);
+}
+#welcome-banner{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.show-half{
+    width: 70%;
+    margin: 20px;
+    padding: 30px;
+
+}
+.show-half p {
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+.show-half img{
+    margin: 20px;
+    width: 90%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#0d76c1, #1fde9b);
+    padding: 15px 40px 15px 40px;
+    color: aliceblue;
+    border-radius: 20px;
+    font-weight: 700;
+}
+#passion-banner{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#experience-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+.experiences{
+    display: flex;
+    
+}
+.experience-items{
+    width: 42%;
+    border-width: 20px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 10px rgb(80, 209, 238);
+    margin: 0 4% 0 4%;
+    padding: 20px;
+    
+}
+.experience-items p {
+    text-align: justify;
+}
+#education-experience{
+    border-left: 20px solid;
+    border-image: linear-gradient(rgb(247, 198, 64), rgb(183, 235, 110));
+    border-image-slice: 1;
+}
+#developer-experience{
+    border-left: 20px solid;
+    border-image: linear-gradient(rgb(74, 235, 238),rgb(64, 88, 247));
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
